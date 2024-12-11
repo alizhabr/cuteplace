@@ -1,0 +1,111 @@
+span {
+    
+    background-color:bisque;
+    /* padding-bottom: 10px; */
+    font-size: 24px; 
+    display: inline-block; 
+    
+}
+.cont1 ul{
+    display: inline-block;
+    background-color:bisque; 
+    text-align:justify;
+    block-size: 90px;
+    padding: 10px;
+}
+
+
+html{
+    background-image: url(https://i.pinimg.com/736x/bb/6a/44/bb6a44317877c52e54455b87fe724bf3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    filter: brightness(90%);
+}   
+.all{
+    color: rgb(53, 0, 70);
+}
+
+.cont{
+    
+    display: inline;
+    /* display: flex;
+    flex-direction: row; */
+    /* padding-left: 6px; */
+    
+   
+}
+.cont1{
+   display: inline-block;
+   block-size: 100px;
+   padding: 10px;
+   padding-left: 6px;
+    font-size:20px; 
+    line-height: 28px;
+    text-align:center;
+    margin: 0px;    
+    
+    
+    
+    
+}
+.cont>h1{
+    font-style:italic;
+    color: bisque;
+    background-color:blueviolet;
+    text-align:center; 
+    margin: 0px;
+    font-size: 45px; 
+
+      
+}
+
+.pict>img{
+    display: inline;
+    border-style:solid;
+    border-width: 4px;
+    margin-top: 5px;
+    color: rgb(27, 4, 80);
+    width: 400px;
+    padding:1px;
+    margin-right: 3px;
+    margin-left: 105px;
+    /* justify-content: space-between;  */
+    
+   
+}
+.page{
+    display: flex;
+}
+.header{
+    position: relative;
+    top:5px;
+    width: 189px;
+    background-image:url(https://i.pinimg.com/564x/a2/7f/bd/a27fbd77a7fbd058bed102333e732d04.jpg);
+    height:390px;
+    
+}
+.all{
+     width: 100%;
+    padding-left: 10px; 
+}
+.header li{
+    background-color:bisque;
+    padding-left: 5px;
+}
+.header>ul{
+    /* list-style: none; */
+    border-top-style: solid;
+    border-bottom-style: solid;
+    
+    border-width: 4px;
+    margin: 10px;
+    padding-top: 10px;
+    line-height: 30px;
+    font-size: 20px;
+    padding-bottom: 230px;
+    
+}

@@ -1,0 +1,130 @@
+span {
+    /* font-style:italic; */
+    padding-left: 10px;
+    /* background-color: rgb(25, 0, 49); */
+    padding-bottom: 10px;
+    font-size: 24px;
+    display: inline;
+    
+}
+
+html{
+    background-image: url(https://i.pinimg.com/originals/7f/59/58/7f59589dbea80f8702d0790698db6d8d.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    filter: brightness(90%);
+}   
+.all{
+    color: rgb(53, 0, 70);
+}
+
+.cont{
+    text-align: start;
+    
+    /* background-color: rgb(53, 39, 39); */
+    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    padding-left: 6px;
+    /* justify-content: space-between; */
+}
+.cont1{
+    /* background-color: rgb(155, 78, 15); */
+    padding: 25px;
+    font-size:20px; 
+    line-height: 28px;
+}
+
+
+.cont1>h3{
+    text-align: center;
+    margin: 0px;
+}
+.dog>h1{
+    display: inline-flex;
+    text-align: center;   
+    justify-content: center;
+    font-size: 45px;
+    
+    color:  rgb(236, 10, 10);
+}
+.dog>img{
+    /* justify-content:space-between; */
+    width: 150px;
+    /* height:50px */
+    display: inline
+    /* padding-right: 350px; */
+    
+}
+
+.pict>img{
+    display: inline;
+    border-style:solid;
+    border-width: 4px;
+    margin-top: 20px;
+    color: rgb(236, 10, 10);
+    width: 355px;
+    padding:1px;
+}
+.page{
+    display: flex;
+}
+.header{
+    width: 15%;
+    background-image:url(https://i.pinimg.com/564x/a2/7f/bd/a27fbd77a7fbd058bed102333e732d04.jpg);
+    height:390px;
+    
+}
+.all{
+    width: 85%;
+    padding-left: 10px;
+}
+.header li{
+    background-color:bisque;
+    padding-left: 5px;
+}
+.header>ul{
+    /* list-style: none; */
+    border-top-style: solid;
+    border-bottom-style: solid;
+    
+    border-width: 4px;
+    margin: 10px;
+    padding-top: 10px;
+    line-height: 30px;
+    font-size: 20px;
+    padding-bottom: 230px;
+    
+}
+.otz{
+    text-align: center;
+    
+}
+.button{    
+    height: 50px;
+    width: 80px;
+    margin-left: 30px;
+    margin-right: 40px;
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+    background: #0B63F6;
+    /* box-shadow: 0 5px 0 #003CC5; */
+}
+.button:hover {
+    background: #002b91;
+    box-shadow: none;
+    position: relative;
+    top: 5px;
+}
+.otz b{
+    margin-bottom: 10px;
+    color: rgb(236, 10, 10);
+}
+.input-textarea{
+    outline: 3px solid rgb(255, 0, 187);
+}

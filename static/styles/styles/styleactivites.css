@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: rgb(53, 0, 70);
+    font-size:20px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(3);
+}
+html{
+    background-image: url(https://64.media.tumblr.com/7a98ed3bd5e4354c5b0f307552170fbf/b15ad82c65b79a19-99/s1280x1920/8d7749856f6d39c6451deaa9ad3ebe816654600a.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    filter: brightness(90%);
+}   
+.card {
+    
+    margin: 1em
+}
+.card img{
+    
+    border-style: solid;
+    border-width: 4px;
+    padding: 1px;
+    width:100%;
+}
+.card a{
+    text-decoration: none;
+}
+.card>.info{
+    display: block;
+    position:relative;
+    left: 5px;
+    text-align: center;
+    background-color:bisque;
+    
+}
+
+@media(max-width: 800px){
+    .container{
+        grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(5);
+    }
+    .card{margin-inline: 0;}
+}
